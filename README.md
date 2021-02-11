@@ -64,9 +64,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+The return function personalDice - this is because it refers to the name within the the function where the information is coming from.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+Asking the function to pass information to the function personalDice. The output would change since it is a calling on the function a second time, of which the function outputs a random number.
 c. What is the lexical scope of `newRoll`? 
-
+newRoll is scoped inside of an inner function of personalDice();
 
 ### Task 3 - Stretch Goals
 
